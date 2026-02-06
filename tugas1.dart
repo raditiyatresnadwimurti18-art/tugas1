@@ -11,7 +11,11 @@ void main(){
   print("Nama: $nama");
   print("Umur: $umur");
   print("Tinggi Badan: $tinggi_badan cm");
-  print("Status Mahasiswa: $status_mahasiswa");
+  if (status_mahasiswa) {
+    print("Status: Mahasiswa");
+  } else {
+    print("Status: Bukan Mahasiswa");
+  }
   print("Buku Favorit: $buku_fav");
 
   print("Alamat: ${tambahan['alamat']}");
