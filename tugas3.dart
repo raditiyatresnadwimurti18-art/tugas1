@@ -26,7 +26,7 @@ void main(){
   //soal 5
   List<String> belanjaan = ["beras", "minyak", "telur", "gula","Tepung"];
   for(int d=0; d<belanjaan.length; d++){
-    print("Item belanjaan ke-${belanjaan[d]}");
+    print("Item belanjaan ke-$d adalah ${belanjaan[d]}");
   }
 
 }
